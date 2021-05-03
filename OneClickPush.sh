@@ -4,4 +4,5 @@ echo “Please Enter Comment here:”
 read commitComment
 git commit -m "$commitComment"
 git push
-cmd /k echo “Finished”
+echo “Push Finished”
+cmd /k 
